@@ -1,12 +1,38 @@
 # Polling App
 
-A real-time polling application built using:
+A real-time polling application built using Spring Boot, Angular, MySQL, and JPA/Hibernate.
 
+## Features
+
+- Create polls with multiple options
+- Vote on polls
+- View poll results
+- REST APIs for poll management
+- Persistent data storage using MySQL
+
+## Tech Stack
+
+### Backend
+- Java
 - Spring Boot
-- Angular
-- MySQL
+- Spring Data JPA
+- Hibernate
 - WebSockets
-- JPA/Hibernate
+- MySQL
+
+### Frontend
+- Angular
+- TypeScript
+- HTML
+- CSS
+
+## Project Structure
+```text
+polling-app/
+├── backend/       # Spring Boot REST API
+├── frontend/      # Angular frontend
+└── README.md
+```
 
 ## 📡 API Endpoints
 
