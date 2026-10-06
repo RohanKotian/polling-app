@@ -4,12 +4,13 @@ import com.polling.pollingapp.model.Poll;
 import com.polling.pollingapp.services.PollService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import request.Vote;
+import com.polling.pollingapp.request.Vote;
 
 import java.util.List;
 
 @RestController
 @RequestMapping("/api/polls")
+@CrossOrigin(origins = "http://localhost:4200/")
 public class PollController {
     private final PollService pollService;
 

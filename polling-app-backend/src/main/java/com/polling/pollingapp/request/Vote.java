@@ -1,4 +1,4 @@
-package request;
+package com.polling.pollingapp.request;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
